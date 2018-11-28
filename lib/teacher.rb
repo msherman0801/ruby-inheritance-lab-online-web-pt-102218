@@ -5,5 +5,5 @@ class Teacher < User
 
   def teach 
     KNOWLEDGE[rand]
-  
+  end
 end
